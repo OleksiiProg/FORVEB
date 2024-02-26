@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Аудіо</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="nav">
+            <img src="" alt="Logo" class="nav__logo" />
+            <ul class="nav__ul">
+              <li class="nav__li">
+                <a href="index.html" class="nav__li-a">Intro</a>
+              </li>
+              <li class="nav__li">
+                <a href="map.html" class="nav__li-a">Map</a>
+              </li>
+              <li class="nav__li">
+                <a href="form.html" class="nav__li-a">Form</a>
+              </li>
+              <li class="nav__li">
+                <a href="audio.html" class="nav__li-a">Audio</a>
+              </li>
+              <li class="nav__li">
+                <a href="video.html" class="nav__li-a">Video</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__bottom-text">
+          <h1 style="color: rgb(133, 133, 203)" class="bottom-text__h1">
+            Аудіо
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="audio">
+      <div class="container">
+        <p>Звичайне аудіо:</p>
+        <audio controls src="California.mp3"></audio>
+        <br />
+        <br />
+        <br />
+        <p>Аудіо з атрибутом loop:</p>
+        <audio
+          controls
+          loop
+          src="Billy.mp3"
+          type="audio/ogg; codecs=vorbis"
+        ></audio>
+        <br />
+        <br />
+        <br />
+        <p>Аудіо з атрибутом loop і muted:</p>
+        <audio
+          controls
+          loop
+          muted
+          src="Dollar.mp3"
+          type="audio/ogg; codecs=vorbis"
+        ></audio>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__ul">
+          <li class="footer__li">
+            <a href="index.html" class="footer__li-a">Intro</a>
+          </li>
+          <li class="footer__li">
+            <a href="map.html" class="footer__li-a">Map</a>
+          </li>
+          <li class="footer__li">
+            <a href="form.html" class="footer__li-a">Form</a>
+          </li>
+          <li class="footer__li">
+            <a href="audio.html" class="footer__li-a">Audio</a>
+          </li>
+          <li class="footer__li">
+            <a href="video.html" class="footer__li-a">Video</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

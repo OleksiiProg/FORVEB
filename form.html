@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Форми</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="nav">
+            <img src="" alt="Logo" class="nav__logo" />
+            <ul class="nav__ul">
+              <li class="nav__li">
+                <a href="index.html" class="nav__li-a">Intro</a>
+              </li>
+              <li class="nav__li">
+                <a href="map.html" class="nav__li-a">Map</a>
+              </li>
+              <li class="nav__li">
+                <a href="form.html" class="nav__li-a">Form</a>
+              </li>
+              <li class="nav__li">
+                <a href="audio.html" class="nav__li-a">Audio</a>
+              </li>
+              <li class="nav__li">
+                <a href="video.html" class="nav__li-a">Video</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__bottom-text">
+          <h1 style="color: rgb(41, 41, 68)" class="bottom-text__h1">Форми</h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="forms">
+      <div class="container">
+        <form action="mailto:fkorvinn@gmail.com">
+          Ім’я:<br />
+          <input type="text" name="firstname" value="" /><br />
+          Прізвище:<br />
+          <input type="text" name="lastname" value="" /><br /><br />
+          <input type="radio" name="gender" value="male" checked />
+          Чоловіча<br />
+          <input type="radio" name="gender" value="female" /> Жіноча<br />
+          <input type="radio" name="gender" value="other" /> Інше<br />
+          <p class="form__p">Ви можете залишити свій коментар тут:</p>
+          <textarea
+            name="Comments"
+            rows="4"
+            cols="64"
+            style="width: 536px; height: 72px"
+          ></textarea>
+          <br />
+          <input type="submit" value="Відправити" />
+        </form>
+      </div>
+    </section>
+  </body>
+
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__ul">
+        <li class="footer__li">
+          <a href="index.html" class="footer__li-a">Intro</a>
+        </li>
+        <li class="footer__li">
+          <a href="map.html" class="footer__li-a">Map</a>
+        </li>
+        <li class="footer__li">
+          <a href="form.html" class="footer__li-a">Form</a>
+        </li>
+        <li class="footer__li">
+          <a href="audio.html" class="footer__li-a">Audio</a>
+        </li>
+        <li class="footer__li">
+          <a href="video.html" class="footer__li-a">Video</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</html>

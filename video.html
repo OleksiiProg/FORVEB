@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Відео</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="nav">
+            <img src="" alt="Logo" class="nav__logo" />
+            <ul class="nav__ul">
+              <li class="nav__li">
+                <a href="index.html" class="nav__li-a">Intro</a>
+              </li>
+              <li class="nav__li">
+                <a href="map.html" class="nav__li-a">Map</a>
+              </li>
+              <li class="nav__li">
+                <a href="form.html" class="nav__li-a">Form</a>
+              </li>
+              <li class="nav__li">
+                <a href="audio.html" class="nav__li-a">Audio</a>
+              </li>
+              <li class="nav__li">
+                <a href="video.html" class="nav__li-a">Video</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__bottom-text">
+          <h1 style="color: rgb(49, 65, 50)" class="bottom-text__h1">Відео</h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="video">
+      <div class="container">
+        <video width="320" height="240" controls>
+          <source src="zrada.mp4" type="video/mp4" />
+          <source src="movie.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+        <br />
+        <br />
+        <p>Loop</p>
+        <video width="400" height="340" controls loop>
+          <source src="zrada.mp4" type="video/mp4" />
+          <source src="movie.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+        <br />
+        <br />
+        <p>autoplay</p>
+        <video width="400" height="340" controls autoplay>
+          <source src="zrada.mp4" type="video/mp4" />
+          <source src="movie.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__ul">
+          <li class="footer__li">
+            <a href="index.html" class="footer__li-a">Intro</a>
+          </li>
+          <li class="footer__li">
+            <a href="map.html" class="footer__li-a">Map</a>
+          </li>
+          <li class="footer__li">
+            <a href="form.html" class="footer__li-a">Form</a>
+          </li>
+          <li class="footer__li">
+            <a href="audio.html" class="footer__li-a">Audio</a>
+          </li>
+          <li class="footer__li">
+            <a href="video.html" class="footer__li-a">Video</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
